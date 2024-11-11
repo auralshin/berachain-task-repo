@@ -145,8 +145,8 @@ Sample Input & Output
 
 ```json
 {
-  blockRoot: '0xb4ccb50b71e53c399c5113b4ce6592bbf0cbaf5366dc5e7c5548351f38b6e782',
-  proof: [
+  "blockRoot": "0xb4ccb50b71e53c399c5113b4ce6592bbf0cbaf5366dc5e7c5548351f38b6e782",
+  "proof": "[
     '0x19c7ff4e488420e97d6816fee006ce3916dbee007581899360aa60bd419ee767',
     '0x02281f3e5f0cd98a59b76a1b9201cc8c4b6133e8eb520b22a540382543a9b7c4',
     '0x4eae784d1244e9c52a571ca8936ca42fc2a0bd3cb717250a21d50ffa58f8611c',
@@ -196,8 +196,8 @@ Sample Input & Output
     '0x774a9f976e0adb87bf985fefea08c3e62aeefd4c2075b59eb7a60f57ff0e6173',
     '0x586e4202380653c1c1f0d453913b91bbb8a60e9a25667a04f33e1cd629b0d311',
     '0xeb1568207b9eb72964903c4604ea333dd8f7f9875c9fc0d2e7fb5b0e1169a1a3'
-  ],
-  validator: {
+  ]",
+  "validator": "{
     pubkey: '0x805fd5df04173f249bb384b885cfe638a47a02f3c5b98c1e7329397bceca2bd9935f19ab45dac76a5764d8c47367d8f8',
     withdrawal_credentials: '0x01000000000000000000000061fa6204b232b3e8f3eb388b50a2f2574c9052a6',
     effective_balance: '32000000000',
@@ -206,11 +206,11 @@ Sample Input & Output
     activation_epoch: '226013',
     exit_epoch: '18446744073709551615',
     withdrawable_epoch: '18446744073709551615'
-  },
-  validatorIndex: 860435,
-  timeStamp: 1731320663,
-  verificationStatus: true
-}
+  }",
+  "validatorIndex": 860435,
+  "timeStamp": 1731320663,
+  "verificationStatus": true
+}"
 ```
 
 [Technical Docs](./TechnicalDocumentation.md)
