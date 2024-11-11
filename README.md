@@ -210,7 +210,9 @@ Sample Input & Output
   "validatorIndex": 860435,
   "timeStamp": 1731320663,
   "verificationStatus": true
-}"
+}
 ```
+
+## Technical Docs
 
 [Technical Docs](./TechnicalDocumentation.md)
