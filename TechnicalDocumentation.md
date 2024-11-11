@@ -40,3 +40,5 @@ To generate proofs for the validator, beacon state, and beacon block, using the 
 - Validator Proof: This proof is of a specific validator is included in the validator registry within the beacon state. We need the validator’s hash tree root, Merkle proof, and position within the tree.
 - Beacon State Proof: This proof verifies that the validator registry root is part of the beacon state. This requires Merkleizing the beacon state and generating a proof that includes the validator’s registry.
 - Beacon Block Proof: This proof confirms that the beacon state root is included in the beacon block. This links the validator’s data to a specific beacon block, validating the data against the canonical blockchain state.
+
+![merkle tree](https://raw.githubusercontent.com/auralshin/berachain-task-repo/main/image.png)
