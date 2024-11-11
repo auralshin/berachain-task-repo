@@ -130,9 +130,9 @@ The server will periodically send updates until the process completes or fails.
 }
 ```
 
-Sample Input & Output
+## Sample Input & Output
 
-#### Input
+### Input
 
 ```json
 {
@@ -141,7 +141,7 @@ Sample Input & Output
 }
 ```
 
-#### Output
+### Output
 
 ```json
 {
